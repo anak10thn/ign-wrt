@@ -41,3 +41,8 @@ make image PROFILE=TLMR3020 PACKAGES="luci nodogsplash"
 ```
 mtd -r write image.bin firmware
 ```
+## update package from source
+```
+./scripts/feeds update -a
+./scripts/feeds uninstall <package>
+./scripts/feeds install -a
