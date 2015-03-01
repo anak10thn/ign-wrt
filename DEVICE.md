@@ -1,4 +1,6 @@
 #Device Support
+
+```
 Current Target: "ar71xx (Generic)"
 Default Packages: base-files libc libgcc busybox dropbear mtd uci opkg netifd kmod-leds-gpio kmod-gpio-button-hotplug swconfig kmod-ledtrig-default-on kmod-ledtrig-timer kmod-ledtrig-netdev kmod-ath9k wpad-mini uboot-envtools dnsmasq iptables ip6tables ppp ppp-mod-pppoe kmod-ipt-nathelper firewall 6relayd odhcp6c
 Available Profiles:
@@ -315,3 +317,4 @@ ZCN1523H516:
 NBG_460N_550N_550NH:
         Zyxel NBG 460N/550N/550NH
         Packages: kmod-rtc-pcf8563
+```
