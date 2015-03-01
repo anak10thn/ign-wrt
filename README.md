@@ -33,3 +33,7 @@ File systems->
 - Ext3 journalling file system support
 - The extendded 4 (ext4) filesystem
 ```
+## build image
+```
+make image PROFILE=TLMR3020 PACKAGES="luci nodogsplash"
+```
