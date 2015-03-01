@@ -1,4 +1,4 @@
-# juriko-wrt
+# juriko-wrt MR3020
 ## config `make menu_config`
 ```
 - Set Target System = Atheros AR7xxx/AR9xxx
