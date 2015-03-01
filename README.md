@@ -37,3 +37,7 @@ File systems->
 ```
 make image PROFILE=TLMR3020 PACKAGES="luci nodogsplash"
 ```
+## flashing image
+```
+mtd -r write image.bin firmware
+```
